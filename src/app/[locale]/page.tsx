@@ -28,7 +28,6 @@ type Faq = {
 const TELEGRAM_URL = "https://t.me/doodleTONgame";
 const X_URL = "https://x.com/DoodleTON_";
 const SITE_URL = "https://doodlton.com";
-const OG_IMAGE_URL = `${SITE_URL}/opengraph-image`;
 
 interface HomeProps {
   params: Promise<{ locale: string }>;
@@ -541,6 +540,7 @@ export async function generateMetadata({
     namespace: "metadata",
   });
   const canonical = `${SITE_URL}/${locale}`;
+  const ogImageUrl = `${canonical}/opengraph-image`;
 
   return {
     title: t("title"),
@@ -580,7 +580,7 @@ export async function generateMetadata({
       alternateLocale: locale === "en" ? "ru" : "en",
       images: [
         {
-          url: OG_IMAGE_URL,
+          url: ogImageUrl,
           width: 1200,
           height: 630,
           alt: t("ogImageAlt"),
@@ -594,7 +594,7 @@ export async function generateMetadata({
       description: t("twitterDescription"),
       site: "@DoodleTON_",
       creator: "@DoodleTON_",
-      images: [OG_IMAGE_URL],
+      images: [ogImageUrl],
     },
     other: {
       "telegram:channel": TELEGRAM_URL,

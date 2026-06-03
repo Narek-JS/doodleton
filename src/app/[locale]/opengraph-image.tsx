@@ -13,7 +13,8 @@ export default function Image() {
       <div
         style={{
           alignItems: "center",
-          background: "linear-gradient(135deg, #060b1c 0%, #0f172a 56%, #312e81 100%)",
+          background:
+            "linear-gradient(135deg, #060b1c 0%, #0f172a 56%, #312e81 100%)",
           color: "white",
           display: "flex",
           height: "100%",
