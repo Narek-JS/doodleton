@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "title": "DoodleTON - Telegram Mini App игра с TON-наградами",
+    "description": "Играйте в DoodleTON, Telegram Mini App и TON blockchain game, где ранние игроки прыгают, собирают DoodleTON Coins, накапливают TON Progress, открывают Founder Badges и участвуют в кампании запуска.",
+    "keywords": "DoodleTON, Doodle TON, Telegram Mini App игра, Telegram игра, Telegram crypto game, Telegram Web3 game, TON игра, TON blockchain game, TON rewards game, Toncoin game, play to earn Telegram, play-to-earn TON, tap-to-earn TON, крипто игра Telegram, Web3 gaming, Telegram mini games, DoodleTON Coins, Founder Campaign, кампания запуска, реферальные награды, ежедневные награды, TON Progress, Founder Badges, Telegram комьюнити, TON ecosystem, vertical jumping game, jump game, crypto game on Telegram",
+    "ogTitle": "DoodleTON Founder Campaign - Telegram TON игра",
+    "ogDescription": "Прыгайте, собирайте DoodleTON Coins, накапливайте TON Progress, приглашайте друзей и станьте одним из первых игроков DoodleTON до запуска.",
+    "ogSiteName": "DoodleTON",
+    "ogImageAlt": "Лендинг Telegram-игры DoodleTON",
+    "twitterTitle": "DoodleTON - Telegram TON игра",
+    "twitterDescription": "Founder Campaign DoodleTON активна. Играйте в Telegram, собирайте DoodleTON Coins и накапливайте TON Progress до запуска."
+  },
+  "common": {
+    "brand": "DoodleTON",
+    "playTelegram": "Играть в Telegram",
+    "community": "Сообщество",
+    "campaign": "Кампания",
+    "rewards": "Награды",
+    "howToStart": "Как начать",
+    "faq": "FAQ",
+    "followX": "Следить в X",
+    "contact": "hello@doodlton.com",
+    "rights": "© 2026 DoodleTON. Все права защищены.",
+    "disclaimer": "Награды, балансы и правила кампании могут измениться до запуска. Дневные лимиты помогают сохранить честную игру."
+  },
+  "landing": {
+    "eyebrow": "10-дневная Founder Campaign активна",
+    "heroTitle": "Прыгай. Собирай. Зарабатывай.",
+    "heroDescription": "Играйте в DoodleTON, Telegram Mini App игре для TON ecosystem. Прыгайте по бесконечным платформам, собирайте TON-награды и DoodleTON Coins, открывайте бейджи и станьте одним из первых игроков до официального запуска.",
+    "heroCta": "Играть в Telegram",
+    "secondaryCta": "Вступить в канал",
+    "trust": "Создано для TON-сообщества прямо внутри Telegram",
+    "statsPlayers": "Ранние игроки",
+    "statsCampaign": "Founder Campaign",
+    "statsRewards": "Пути наград",
+    "statsBadges": "Эксклюзивные бейджи",
+    "livePanelTitle": "Прогресс запуска",
+    "livePanelText": "Каждый прыжок приближает вас к Founder-наградам.",
+    "livePanelTon": "TON Progress",
+    "livePanelCoins": "DoodleTON Coins",
+    "livePanelBadge": "Founder Badge",
+    "feature1": "Играй каждый день",
+    "feature2": "Получай TON Progress",
+    "feature3": "Собирай DoodleTON Coins",
+    "feature4": "Открывай Founder Badges",
+    "aboutTitle": "Что такое DoodleTON?",
+    "aboutText": "DoodleTON - это Telegram Mini App игра, вдохновленная классическими вертикальными jumping-играми. Ведите персонажа по бесконечным платформам, собирайте TON-награды, копите DoodleTON Coins и соревнуйтесь с другими игроками до запуска прямо внутри Telegram.",
+    "aboutHighlight": "Каждый прыжок помогает продвигаться к наградам.",
+    "campaignTitle": "Founder Campaign делает первые дни особенными",
+    "campaignText": "В первые 10 дней ваша активность особенно важна. Собирайте ежедневные награды, накапливайте TON Progress, приглашайте друзей, открывайте бейджи и укрепляйте позицию перед запуском.",
+    "campaignItems": [
+      "Получайте TON Progress во время игры",
+      "Собирайте DoodleTON Coins со временем",
+      "Открывайте эксклюзивные Founder Badges",
+      "Приглашайте друзей и получайте бонусные награды"
+    ],
+    "rewardsTitle": "Два пути наград в одной простой игре",
+    "tonTitle": "Получайте TON-награды",
+    "tonText": "Собирайте TON-предметы во время игры. Каждый предмет увеличивает ваш TON Progress и помогает активным игрокам претендовать на награды к запуску. Дневные лимиты сохраняют честные условия для всех.",
+    "coinTitle": "Собирайте DoodleTON Coins",
+    "coinText": "DoodleTON Coins растут вместе с вашей активностью и будут играть важную роль во время запуска. Чем больше вы играете, тем больше DoodleTON Coins собираете.",
+    "inviteTitle": "Приглашайте друзей и открывайте бейджи",
+    "inviteText": "Приводите друзей в DoodleTON и развивайтесь вместе. Приглашенные игроки должны достичь 3 уровня, чтобы реферальная награда засчиталась.",
+    "inviteRewards": [
+      { "friends": "Пригласить 5 друзей", "reward": "+0.5 TON" },
+      { "friends": "Пригласить 10 друзей", "reward": "+1 TON" },
+      { "friends": "Пригласить 25 друзей", "reward": "+2 TON + 5,000 DoodleTON" },
+      { "friends": "Пригласить 50 друзей", "reward": "+4 TON + 10,000 DoodleTON" }
+    ],
+    "whyTitle": "Почему DoodleTON?",
+    "whyText": "Мы считаем, что Telegram-игры должны быть простыми, награждающими и построенными вокруг сообщества. DoodleTON объединяет быстрый jump-game цикл, TON blockchain rewards, реферальный рост, долгосрочный прогресс и будущие возможности экосистемы.",
+    "whyFinal": "Это только начало.",
+    "countdownTitle": "Обратный отсчет до запуска",
+    "countdownText": "Запуск DoodleTON уже близко. Играйте сейчас, собирайте награды, открывайте бейджи и закрепите место среди самых ранних игроков.",
+    "countdownNote": "Founder Campaign заканчивается, когда таймер дойдет до нуля.",
+    "countdownDays": "Дни",
+    "countdownHours": "Часы",
+    "countdownMinutes": "Минуты",
+    "countdownSeconds": "Секунды",
+    "stepsTitle": "Как начать",
+    "steps": [
+      "Откройте DoodleTON в Telegram",
+      "Начните играть",
+      "Собирайте TON Progress",
+      "Собирайте DoodleTON Coins",
+      "Приглашайте друзей",
+      "Открывайте бейджи",
+      "Готовьтесь к запуску"
+    ],
+    "communityTitle": "Сообщество растет еще до запуска",
+    "communityText": "DoodleTON уже объединяет игроков, билдеров и фанатов TON, которым нужна простая Telegram crypto game с реальным прогрессом. Вступайте в канал, чтобы получать новости разработки, объявления о запуске, обновления кампании и официальные ссылки доступа.",
+    "socialProof": [
+      "Основной геймплей и система наград находятся на финальном этапе разработки",
+      "Telegram-first опыт с интеграцией TON",
+      "В комьюнити уже идут обсуждения, идеи и новости запуска"
+    ],
+    "finalTitle": "Присоединяйтесь к Founder Campaign",
+    "finalText": "Станьте одним из самых ранних игроков DoodleTON. Начните собирать награды уже сегодня.",
+    "finalCta": "Играть в DoodleTON",
+    "faqTitle": "Что спрашивают игроки",
+    "faqs": [
+      {
+        "question": "DoodleTON уже запущен?",
+        "answer": "Проект находится на финальной стадии перед запуском. Лендинг ведет игроков в официальное Telegram-сообщество, где первыми публикуются новости кампании, информация о безопасности и ссылки доступа."
+      },
+      {
+        "question": "Как работают TON-награды?",
+        "answer": "Игроки собирают TON-предметы и накапливают TON Progress во время игры. Награды к запуску рассчитываются по активности в кампании, а дневные лимиты помогают сохранить честные условия."
+      },
+      {
+        "question": "Что такое DoodleTON Coins?",
+        "answer": "DoodleTON Coins - это игровые очки кампании, которые собираются во время игры. Они растут вместе с вашей активностью и будут важны во время запуска."
+      },
+      {
+        "question": "Зачем приглашать друзей?",
+        "answer": "Приглашения открывают бонусные награды и бейджи. Реферальная награда засчитывается, когда приглашенный игрок достигает 3 уровня."
+      }
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "title": "DoodleTON - Telegram Mini App Game with TON Rewards",
+    "description": "Play DoodleTON, a Telegram Mini App and TON blockchain game where early players jump, collect DoodleTON Coins, build TON Progress, unlock Founder Badges and join the launch campaign.",
+    "keywords": "DoodleTON, Doodle TON, Telegram Mini App game, Telegram game, Telegram crypto game, Telegram Web3 game, TON game, TON blockchain game, TON rewards game, Toncoin game, play to earn Telegram, play-to-earn TON, tap-to-earn TON, crypto rewards game, Web3 gaming, Telegram mini games, DoodleTON Coins, Founder Campaign, launch campaign, referral rewards, daily rewards, TON Progress, Founder Badges, Telegram community, TON ecosystem, vertical jumping game, jump game, crypto game on Telegram",
+    "ogTitle": "DoodleTON Founder Campaign - Telegram TON Game",
+    "ogDescription": "Jump, collect DoodleTON Coins, build TON Progress, invite friends and become one of the first DoodleTON players before launch.",
+    "ogSiteName": "DoodleTON",
+    "ogImageAlt": "DoodleTON jumping game landing page",
+    "twitterTitle": "DoodleTON - Telegram TON Game",
+    "twitterDescription": "The DoodleTON Founder Campaign is live. Play on Telegram, collect DoodleTON Coins and build TON Progress before launch."
+  },
+  "common": {
+    "brand": "DoodleTON",
+    "playTelegram": "Play on Telegram",
+    "community": "Community",
+    "campaign": "Campaign",
+    "rewards": "Rewards",
+    "howToStart": "How to Start",
+    "faq": "FAQ",
+    "followX": "Follow on X",
+    "contact": "hello@doodlton.com",
+    "rights": "© 2026 DoodleTON. All rights reserved.",
+    "disclaimer": "Rewards, balances and campaign rules may change before launch. Daily limits apply to keep gameplay fair."
+  },
+  "landing": {
+    "eyebrow": "10-Day Founder Campaign Live",
+    "heroTitle": "Jump. Collect. Earn.",
+    "heroDescription": "Play DoodleTON, a Telegram Mini App game built for the TON ecosystem. Jump through endless platforms, collect TON rewards and DoodleTON Coins, unlock badges, and become one of the first players before launch.",
+    "heroCta": "Play on Telegram",
+    "secondaryCta": "Join Community",
+    "trust": "Built for the TON community inside Telegram",
+    "statsPlayers": "Early Players",
+    "statsCampaign": "Founder Campaign",
+    "statsRewards": "Reward Paths",
+    "statsBadges": "Exclusive Badges",
+    "livePanelTitle": "Launch Progress",
+    "livePanelText": "Every jump moves you closer to Founder rewards.",
+    "livePanelTon": "TON Progress",
+    "livePanelCoins": "DoodleTON Coins",
+    "livePanelBadge": "Founder Badge",
+    "feature1": "Play Daily",
+    "feature2": "Earn TON Progress",
+    "feature3": "Collect DoodleTON Coins",
+    "feature4": "Unlock Founder Badges",
+    "aboutTitle": "What is DoodleTON?",
+    "aboutText": "DoodleTON is a Telegram Mini App game inspired by classic vertical jumping games. Guide your character through endless platforms, collect TON rewards, gather DoodleTON Coins, and compete with other players before launch without leaving Telegram.",
+    "aboutHighlight": "Every jump helps you progress toward rewards.",
+    "campaignTitle": "The Founder Campaign Makes the First Days Special",
+    "campaignText": "During the first 10 days, your gameplay matters more. Collect daily rewards, build TON Progress, invite friends, unlock badges and strengthen your launch position before the wider release.",
+    "campaignItems": [
+      "Earn TON Progress during gameplay",
+      "Collect DoodleTON Coins over time",
+      "Unlock exclusive Founder Badges",
+      "Invite friends and earn bonus rewards"
+    ],
+    "rewardsTitle": "Two Reward Loops, One Simple Game",
+    "tonTitle": "Earn TON Rewards",
+    "tonText": "Collect TON items while playing. Every TON item increases your TON Progress, helping active players qualify for launch rewards. Daily limits keep the game fair for everyone.",
+    "coinTitle": "Collect DoodleTON Coins",
+    "coinText": "DoodleTON Coins grow with your activity and will play an important role during launch. The more you play, the more DoodleTON Coins you collect.",
+    "inviteTitle": "Invite Friends & Unlock Badges",
+    "inviteText": "Bring friends into DoodleTON and build together. Invited players must reach Level 3 to qualify for referral rewards.",
+    "inviteRewards": [
+      { "friends": "Invite 5 Friends", "reward": "+0.5 TON" },
+      { "friends": "Invite 10 Friends", "reward": "+1 TON" },
+      { "friends": "Invite 25 Friends", "reward": "+2 TON + 5,000 DoodleTON" },
+      { "friends": "Invite 50 Friends", "reward": "+4 TON + 10,000 DoodleTON" }
+    ],
+    "whyTitle": "Why DoodleTON?",
+    "whyText": "We believe Telegram games should be simple, rewarding, and community-driven. DoodleTON combines a fast jump-game loop, TON blockchain rewards, referral growth, long-term progression and future ecosystem benefits.",
+    "whyFinal": "This is only the beginning.",
+    "countdownTitle": "Launch Countdown",
+    "countdownText": "DoodleTON Launch is coming soon. Play now, earn rewards, collect badges, and secure your place among the earliest players.",
+    "countdownNote": "The Founder Campaign ends when the countdown reaches zero.",
+    "countdownDays": "Days",
+    "countdownHours": "Hours",
+    "countdownMinutes": "Minutes",
+    "countdownSeconds": "Seconds",
+    "stepsTitle": "How To Start",
+    "steps": [
+      "Open DoodleTON on Telegram",
+      "Start playing",
+      "Collect TON Progress",
+      "Collect DoodleTON Coins",
+      "Invite friends",
+      "Unlock badges",
+      "Prepare for launch"
+    ],
+    "communityTitle": "A Community Building Before Launch",
+    "communityText": "DoodleTON is already bringing together players, builders and TON fans who want a simple Telegram crypto game with real progression. Join the channel for development updates, launch announcements, campaign news and official access links.",
+    "socialProof": [
+      "Core gameplay and reward systems are in final development",
+      "Telegram-first experience with TON integration",
+      "Community discussions, ideas and launch updates are active now"
+    ],
+    "finalTitle": "Join The Founder Campaign",
+    "finalText": "Become one of the earliest DoodleTON players. Start collecting rewards today.",
+    "finalCta": "Play DoodleTON Now",
+    "faqTitle": "Questions Players Ask",
+    "faqs": [
+      {
+        "question": "Is DoodleTON already live?",
+        "answer": "The project is in its final launch stage. The landing page sends players to the official Telegram community, where campaign updates, safety information and access links are shared first."
+      },
+      {
+        "question": "How do TON rewards work?",
+        "answer": "Players collect TON items and build TON Progress during gameplay. Launch rewards are calculated from campaign activity, with daily limits designed to keep the game fair."
+      },
+      {
+        "question": "What are DoodleTON Coins?",
+        "answer": "DoodleTON Coins are in-game campaign points collected while playing. They grow with your activity and will matter during launch."
+      },
+      {
+        "question": "Why should I invite friends?",
+        "answer": "Invites unlock bonus rewards and badges. Referred players must reach Level 3 before the referral reward qualifies."
+      }
+    ]
+  }
+}

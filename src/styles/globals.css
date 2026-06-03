@@ -1,0 +1,96 @@
+@import "tailwindcss";
+@import "./variables.css";
+
+@theme {
+  --font-body: var(--font-inter);
+  --primary: var(--primary);
+}
+
+@utility container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+
+  @variant sm {
+    padding-left: 24px;
+    padding-right: 24px;
+    max-width: 600px;
+  }
+
+  @variant md {
+    padding-left: 32px;
+    padding-right: 32px;
+    max-width: 768px;
+  }
+
+  @variant lg {
+    padding-left: 40px;
+    padding-right: 40px;
+    max-width: 1400px;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body), system-ui, sans-serif;
+  letter-spacing: 0.8px;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+::selection {
+  background: rgba(103, 232, 249, 0.35);
+  color: #ffffff;
+}
+
+@keyframes jump {
+  0%,
+  100% {
+    transform: translate(-50%, 42%) rotate(-8deg);
+  }
+
+  50% {
+    transform: translate(-50%, -92%) rotate(8deg);
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0) rotate(45deg);
+  }
+
+  50% {
+    transform: translateY(-24px) rotate(58deg);
+  }
+}
+
+@keyframes float-slow {
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+  }
+
+  50% {
+    transform: translateY(28px) scale(1.08);
+  }
+}
+
+.animate-jump {
+  animation: jump 2.7s cubic-bezier(0.42, 0, 0.24, 1) infinite;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-float-slow {
+  animation: float-slow 8s ease-in-out infinite;
+}
