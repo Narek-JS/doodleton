@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
+import Image from "next/image";
 import Link from "next/link";
 import {
   BadgeCheck,
@@ -50,12 +51,6 @@ const Home: React.FC<HomeProps> = async ({ params }) => {
     { label: t("feature4"), icon: Trophy },
   ];
 
-  const countdown = [
-    { value: "10", label: t("countdownDays") },
-    { value: "00", label: t("countdownHours") },
-    { value: "00", label: t("countdownMinutes") },
-    { value: "00", label: t("countdownSeconds") },
-  ];
   const canonical = `${SITE_URL}/${locale}`;
   const structuredData = {
     "@context": "https://schema.org",
@@ -127,7 +122,6 @@ const Home: React.FC<HomeProps> = async ({ params }) => {
         id="top"
         className="container relative mx-auto grid min-h-[calc(100vh-64px)] items-center gap-12 py-16 lg:grid-cols-[1.05fr_0.95fr] lg:py-24"
       >
-        <div className="absolute left-8 top-16 hidden h-24 w-24 rounded-full border border-cyan-300/30 bg-cyan-300/10 blur-[1px] lg:block animate-float-slow" />
         <div className="absolute bottom-20 left-1/3 hidden h-10 w-10 rotate-45 rounded-lg border border-fuchsia-300/30 bg-fuchsia-300/10 lg:block animate-float" />
 
         <div className="relative z-10 flex flex-col items-start">
@@ -177,9 +171,9 @@ const Home: React.FC<HomeProps> = async ({ params }) => {
           <div className="mt-10 grid w-full grid-cols-2 gap-3 sm:grid-cols-4">
             {[
               ["1st", t("statsPlayers")],
-              ["10D", t("statsCampaign")],
-              ["2x", t("statsRewards")],
-              ["50", t("statsBadges")],
+              ["SOON", t("statsCampaign")],
+              ["EASY", t("statsRewards")],
+              ["TG", t("statsBadges")],
             ].map(([value, label]) => (
               <div
                 key={label}
@@ -195,43 +189,38 @@ const Home: React.FC<HomeProps> = async ({ params }) => {
         </div>
 
         <div className="relative mx-auto flex w-full max-w-[560px] justify-center lg:justify-end">
-          <div className="absolute inset-0 rounded-full bg-cyan-300/20 blur-[90px]" />
-          <div className="relative w-full overflow-hidden rounded-[42px] border border-white/15 bg-slate-950/75 p-5 shadow-[0_30px_120px_rgba(0,0,0,0.45)] backdrop-blur-2xl">
-            <div className="rounded-[32px] border border-white/10 bg-gradient-to-b from-sky-950 via-slate-950 to-indigo-950 p-5">
+          <div className="absolute inset-0 rounded-full bg-purple-400/25 blur-[100px]" />
+          <div className="relative w-full overflow-hidden rounded-[42px] border border-purple-200/20 bg-gradient-to-b from-slate-950/90 via-indigo-950/60 to-slate-950/90 p-5 shadow-[0_30px_120px_rgba(0,0,0,0.55)] backdrop-blur-2xl">
+            <div className="rounded-[32px] border border-purple-200/15 bg-gradient-to-b from-indigo-950/80 via-slate-950 to-purple-950/60 p-5">
               <div className="mb-5 flex items-center justify-between">
                 <div>
-                  <p className="text-sm font-bold text-cyan-200">
-                    {t("livePanelTitle")}
+                  <p className="text-sm font-bold text-purple-200">
+                    DoodleTON Coin
                   </p>
                   <p className="text-xs text-slate-400">{t("livePanelText")}</p>
                 </div>
-                <div className="rounded-full bg-emerald-400/15 px-3 py-1 text-xs font-black text-emerald-200">
-                  LIVE
+                <div className="rounded-full bg-purple-400/20 px-3 py-1 text-xs font-black text-purple-200">
+                  SOON
                 </div>
               </div>
 
-              <div className="relative h-[480px] overflow-hidden rounded-[26px] border border-cyan-200/15 bg-[radial-gradient(circle_at_50%_0%,rgba(56,189,248,0.35),transparent_35%),linear-gradient(180deg,rgba(15,23,42,0.2),rgba(15,23,42,0.95))]">
-                <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.04)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.04)_1px,transparent_1px)] bg-[size:42px_42px] opacity-40" />
-                <div className="absolute left-[18%] top-[18%] h-3 w-3 rounded-full bg-yellow-200 shadow-[0_0_22px_rgba(254,240,138,0.9)] animate-pulse" />
-                <div className="absolute right-[22%] top-[34%] h-3 w-3 rounded-full bg-cyan-200 shadow-[0_0_22px_rgba(125,211,252,0.9)] animate-pulse" />
-                <div className="absolute left-[46%] top-[55%] h-3 w-3 rounded-full bg-fuchsia-200 shadow-[0_0_22px_rgba(245,208,254,0.9)] animate-pulse" />
+              <div className="relative flex h-[480px] flex-col items-center justify-center overflow-hidden rounded-[26px] border border-purple-200/15 bg-[radial-gradient(circle_at_50%_40%,rgba(168,85,247,0.25),transparent_60%),linear-gradient(180deg,rgba(15,23,42,0.3),rgba(15,23,42,0.95))]">
+                <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:42px_42px] opacity-40" />
 
-                {[
-                  "left-[14%] bottom-[13%] w-[38%]",
-                  "right-[10%] bottom-[31%] w-[36%]",
-                  "left-[16%] bottom-[49%] w-[34%]",
-                  "right-[14%] bottom-[67%] w-[32%]",
-                ].map((className) => (
-                  <div
-                    key={className}
-                    className={`absolute h-5 rounded-full bg-gradient-to-r from-cyan-300 to-emerald-300 shadow-[0_14px_45px_rgba(45,212,191,0.35)] ${className}`}
+                <div className="absolute left-[12%] top-[12%] h-2.5 w-2.5 rounded-full bg-purple-300 shadow-[0_0_18px_rgba(216,180,254,0.9)] animate-pulse" />
+                <div className="absolute right-[15%] top-[20%] h-2 w-2 rounded-full bg-cyan-300 shadow-[0_0_14px_rgba(125,211,252,0.9)] animate-pulse" />
+                <div className="absolute left-[20%] bottom-[28%] h-2 w-2 rounded-full bg-fuchsia-300 shadow-[0_0_14px_rgba(240,171,252,0.9)] animate-pulse" />
+                <div className="absolute right-[18%] bottom-[22%] h-2.5 w-2.5 rounded-full bg-yellow-200 shadow-[0_0_18px_rgba(254,240,138,0.9)] animate-pulse" />
+
+                <div className="relative z-10 h-64 w-64">
+                  <div className="absolute inset-0 scale-110 rounded-full bg-purple-500/35 blur-[50px]" />
+                  <Image
+                    src="/doodleImage.jpg"
+                    alt="DoodleTON Coin"
+                    fill
+                    className="rounded-full object-cover shadow-[0_0_70px_rgba(168,85,247,0.55)] animate-float-slow"
+                    priority
                   />
-                ))}
-
-                <div className="absolute left-1/2 top-1/2 h-20 w-20 -translate-x-1/2 rounded-[28px] bg-gradient-to-br from-yellow-200 via-cyan-300 to-fuchsia-300 p-1 shadow-[0_20px_70px_rgba(56,189,248,0.45)] animate-jump">
-                  <div className="grid h-full w-full place-items-center rounded-[24px] bg-slate-950 text-3xl font-black">
-                    D
-                  </div>
                 </div>
 
                 <div className="absolute bottom-5 left-5 right-5 grid grid-cols-3 gap-3">
@@ -411,30 +400,33 @@ const Home: React.FC<HomeProps> = async ({ params }) => {
 
       <section className="container mx-auto py-16 sm:py-24">
         <div className="grid gap-8 lg:grid-cols-[1fr_0.9fr] lg:items-center">
-          <div className="rounded-[36px] border border-white/10 bg-white/[0.06] p-7 backdrop-blur-xl sm:p-10">
-            <h2 className="text-4xl font-black tracking-[-0.04em] sm:text-5xl">
-              {t("countdownTitle")}
-            </h2>
-            <p className="mt-5 text-lg leading-8 text-slate-300">
-              {t("countdownText")}
-            </p>
-            <p className="mt-5 text-sm font-semibold text-cyan-100">
-              {t("countdownNote")}
-            </p>
-            <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-4">
-              {countdown.map((item) => (
-                <div
-                  key={item.label}
-                  className="rounded-3xl border border-white/10 bg-slate-950/50 p-5 text-center"
-                >
-                  <p className="text-4xl font-black text-white">
-                    {item.value}
-                  </p>
-                  <p className="mt-2 text-xs font-bold uppercase tracking-[0.2em] text-slate-400">
-                    {item.label}
-                  </p>
-                </div>
-              ))}
+          <div className="relative overflow-hidden rounded-[36px] border border-purple-200/20 bg-gradient-to-b from-purple-950/30 via-slate-950/60 to-indigo-950/30 p-7 text-center backdrop-blur-xl sm:p-10">
+            <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_50%_30%,rgba(168,85,247,0.18),transparent_60%)]" />
+            <div className="relative">
+              <div className="relative mx-auto mb-8 h-52 w-52">
+                <div className="absolute inset-0 scale-125 rounded-full bg-purple-400/30 blur-[70px]" />
+                <Image
+                  src="/doodleImage.jpg"
+                  alt="DoodleTON Coin"
+                  fill
+                  className="rounded-full object-cover shadow-[0_0_60px_rgba(168,85,247,0.45)]"
+                  priority
+                />
+              </div>
+              <h2 className="text-3xl font-black tracking-[-0.04em] sm:text-4xl">
+                {t("coinLaunchTitle")}
+              </h2>
+              <p className="mx-auto mt-5 max-w-sm text-lg leading-8 text-slate-300">
+                {t("coinLaunchText")}
+              </p>
+              <Link
+                href={TELEGRAM_URL}
+                target="_blank"
+                className="mt-8 inline-flex items-center justify-center gap-3 rounded-full bg-gradient-to-r from-cyan-300 to-sky-500 px-7 py-4 text-base font-black text-slate-950 shadow-[0_18px_60px_rgba(14,165,233,0.35)] transition hover:-translate-y-1 hover:shadow-[0_22px_80px_rgba(14,165,233,0.48)]"
+              >
+                {t("coinLaunchCta")}
+                <ChevronRight size={20} />
+              </Link>
             </div>
           </div>
 
